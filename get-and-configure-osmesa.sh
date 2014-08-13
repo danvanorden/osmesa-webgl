@@ -1,10 +1,10 @@
 #!/bin/bash -e
 
-MESA_VERSION="10.1.0"
+MESA_VERSION="10.2.5"
 
 MESA_DIRNAME="Mesa-$MESA_VERSION"
 MESA_FILENAME="MesaLib-$MESA_VERSION.tar.bz2"
-MESA_URL="ftp://ftp.freedesktop.org/pub/mesa/current/MesaLib-$MESA_VERSION.tar.bz2"
+MESA_URL="ftp://ftp.freedesktop.org/pub/mesa/$MESA_VERSION/MesaLib-$MESA_VERSION.tar.bz2"
 
 if [[ ! -d "$MESA_DIRNAME" ]]
 then
