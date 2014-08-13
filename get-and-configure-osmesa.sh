@@ -11,7 +11,8 @@ then
 
 	if [[ ! -f "$MESA_FILENAME" ]]
 	then
-		curl -o "$MESA_FILENAME" "$MESA_URL"
+		#curl -o "$MESA_FILENAME" "$MESA_URL"
+		wget "$MESA_URL"
 	fi
 
 	tar jxf "$MESA_FILENAME"
