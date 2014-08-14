@@ -8,14 +8,14 @@
 			],
 			'include_dirs': [
 				'<!(node -e "require(\\"nan\\")")',
-				'<(module_root_dir)/Mesa-10.1.0/include',
+				'<(module_root_dir)/Mesa-10.2.5/include',
 			],
 			'libraries': [
-				'-lOSMesa', '-L<(module_root_dir)/Mesa-10.1.0/lib/gallium',
+				'-lOSMesa', '-L<(module_root_dir)/Mesa-10.2.5/lib/gallium',
 				'-ltinfo'
 			],
 			'ldflags': [
-				'-Wl,-rpath,\$$ORIGIN/../../Mesa-10.1.0/lib/gallium',
+				'-Wl,-rpath,\$$ORIGIN/../../Mesa-10.2.5/lib/gallium',
 			]
 		}
 	]
